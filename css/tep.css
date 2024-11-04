@@ -1,0 +1,41 @@
+
+div#banner-content .bloc____texttop {
+    width: 52%;
+    margin-left: 10%;
+}
+
+header nav a, #header i {
+    color: #111;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+
+nav#nav-main a {
+    font-size: 14px;
+}
+p#copyright {
+    text-align: center;
+    padding: 11px;
+}
+
+.col-2-3.mesClient img {
+    height: 224px;
+}
+@media only screen and (max-width: 600px) {
+    
+div#banner-content .bloc____texttop {
+    width: 90%;
+    margin-left: 5%;
+}
+
+#banner h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 800;
+    color: #111;
+}
+
+
+  }
