@@ -12,7 +12,7 @@ header nav a, #header i {
 
 
 nav#nav-main a {
-    font-size: 14px;
+    font-size: 12px;
 }
 p#copyright {
     text-align: center;
@@ -22,8 +22,49 @@ p#copyright {
 .col-2-3.mesClient img {
     height: 224px;
 }
+div#home img.moi_image {
+    width: 60%;
+    border-radius: 99%;
+    margin-top: 143px;
+    margin-left: 20%;
+}
+.lesinfo {
+    border: #d2b357 solid 6px;
+    width: 60%;
+    margin: 50px 20%;
+    border-radius: 9px;
+    padding: 50px 5%;
+    padding-bottom: 80px;
+}
+.lesinfo h1 {
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.lesinfo p span {
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.lesinfo p {
+    color: #5f5f5fe0;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
 @media only screen and (max-width: 600px) {
-    
+    div#home img.moi_image {
+        width: 81%;
+        border-radius: 99%;
+        margin-top: 0px;
+        margin-left: 10%;
+    }
+    .section-heading h1 {
+        display: none;
+    }
 div#banner-content .bloc____texttop {
     width: 90%;
     margin-left: 5%;
@@ -37,5 +78,13 @@ div#banner-content .bloc____texttop {
     color: #111;
 }
 
+.lesinfo {
+    border: #d2b357 solid 6px;
+    width: 90%;
+    margin: 27px 5%;
+    border-radius: 9px;
+    padding: 19px 5%;
+    padding-bottom: 49px;
+}
 
   }
